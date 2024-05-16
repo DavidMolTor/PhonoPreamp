@@ -1,0 +1,90 @@
+
+**** 05/16/24 15:20:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TEST"  [ e:\otros\electrónica\phonopreamp\simulations\phonopreamp3\phonopreamp3-pspicefiles\schematic1\test.
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TEST.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 20 20000
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PHONOPREAMP3
+V_V1         VCC 0 12Vdc
+V_V2         0 VEE 12Vdc
+V_V3         N00420 0 DC 0Vdc AC 1Vac 
+R_R1         0 N00420  150k TC=0,0 
+C_C1         0 N00420  100p  TC=0,0 
+R_R2         0 N00426  68.1k TC=0,0 
+X_U1         N02071 N00426 VCC VEE N02455 LM4562 
+R_R3         N006951 N02071  221 TC=0,0 
+C_C2         0 N006951  220u  TC=0,0 
+X_U2         N02071 N01030 VCC VEE N01098 LF353
+R_R4         N01030 N009500  221 TC=0,0 
+C_C3         N009500 0  220u  TC=0,0 
+R_R5         N01098 N01030  4.22k TC=0,0 
+R_R6         N01250 N01098  2k TC=0,0 
+X_U3         0 N01250 VCC VEE N01384 LF353
+R_R7         N01384 N01250  2k TC=0,0 
+C_C4         N00420 N00426  1u  TC=0,0 
+R_R8         N00426 N01384  1MEG TC=0,0 
+R_R9         N02071 N02422  5.23k TC=0,0 
+R_R10         N02422 N02455  63.4 TC=0,0 
+C_C5         N02406 N02422  22n  TC=0,0 
+C_C6         N02406 N02422  3.3n  TC=0,0 
+C_C7         N02422 N023261  100n  TC=0,0 
+C_C8         N023261 N02455  100n  TC=0,0 
+C_C9         N02071 N02406  33n  TC=0,0 
+C_C10         N02455 N03175  1u  TC=0,0 
+C_C11         N03175 N03189  1u  TC=0,0 
+C_C12         N03189 N03193  1u  TC=0,0 
+R_R11         0 N03175  8.06k TC=0,0 
+R_R12         0 N03193  31.6k TC=0,0 
+R_R13         N03189 N03345  5.62k TC=0,0 
+X_U4         N03193 N03345 VCC VEE N03345 LF353
+C_C13         N03345 N033921  2.2u  TC=0,0 
+R_R14         N033921 N03931  1.18k TC=0,0 
+C_C14         0 N03931  2.2n  TC=0,0 
+R_R15         0 N03931  23.2k TC=0,0 
+X_U5         N03931 N04450 VCC VEE N04462 LF353
+C_C15         N04450 N04462  100p  TC=0,0 
+R_R16         N04450 N04549  24.9k TC=0,0 
+C_C16         N04450 N04549  0.1u  TC=0,0 
+X_R17         N045841 N04549 N04462 POT PARAMS: SET=0.1 VALUE=3k
+R_R18         N047341 N045841  1k TC=0,0 
+C_C17         0 N047341  220u  TC=0,0 
+R_R19         N06228 N04462  1k TC=0,0 
+R_R20         0 N06228  100k TC=0,0 
+
+**** RESUMING TEST.cir ****
+.END
+
+INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
+
+ERROR(ORPSIM-15142): Node N02406 is floating
+
+ERROR(ORPSIM-15142): Node N023261 is floating
+

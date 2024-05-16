@@ -1,0 +1,501 @@
+
+**** 05/16/24 14:50:51 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TEST"  [ E:\Otros\Electrónica\PhonoPreamp\Simulations\PhonoPreamp1\PhonoPreamp1-PSpiceFiles\SCHEMATIC1\TEST.
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TEST.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 20 20000
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PHONOPREAMP1
+C_C2         0 N06232  10n  TC=0,0 
+R_R18         0 OUT  100k TC=0,0 
+R_R5         N05760 N05770  13k TC=0,0 
+R_R17         N05594 OUT  332 TC=0,0 
+R_R2         0 N06166  100 TC=0,0 
+R_R1         N06166 N06186  332 TC=0,0 
+V_V3         0 -12V 12Vdc
+R_R4         0 N05760  1.3k TC=0,0 
+C_C5         N06658 N06510  100n  TC=0,0 
+R_R19         0 N06658  90.9k TC=0,0 
+R_R15         0 N05584  1.43k TC=0,0 
+R_R9         0 N05656  1.3k TC=0,0 
+X_U5         N05656 N058961 +12V -12V N05666 LM4562 
+X_U7         N06520 N06658 +12V -12V N06520 LM4562 
+R_R16         N05584 N05594  13k TC=0,0 
+R_R14         0 N06062  47.5k TC=0,0 
+R_R20         N06520 N06510  47.5k TC=0,0 
+R_R12         N06232 N06048  332 TC=0,0 
+R_R7         N06112 N058961  332 TC=0,0 
+C_C3         N060200 N06048  220n  TC=0,0 
+C_C6         N06600 N06520  1u  TC=0,0 
+V_V2         +12V 0 12Vdc
+R_R6         N05770 N06112  13k TC=0,0 
+C_C4         N06510 OUT  100n  TC=0,0 
+R_R10         N05656 N05666  13k TC=0,0 
+R_R3         0 N06186  47.5k TC=0,0 
+R_R11         N05666 N06048  8.45k TC=0,0 
+X_U4         N05760 N06186 +12V -12V N05770 LM4562 
+R_R8         N06246 N06112  1.43k TC=0,0 
+V_V1         N06166 0 DC 0Vdc AC 1Vac 
+C_C1         0 N06246  220n  TC=0,0 
+R_R21         0 N06600  6.36k TC=0,0 
+R_R13         N060200 N06062  332 TC=0,0 
+X_U6         N05584 N06062 +12V -12V N05594 LM4562 
+
+**** RESUMING TEST.cir ****
+.END
+
+INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
+
+**** 05/16/24 14:50:51 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TEST"  [ E:\Otros\Electrónica\PhonoPreamp\Simulations\PhonoPreamp1\PhonoPreamp1-PSpiceFiles\SCHEMATIC1\TEST.
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U5.X1.DDEFAULT                X_U5.X1.DBLOCK  
+          IS  800.000000E-18                  800.000000E-18 
+          BV   25            
+
+
+               X_U7.X1.DDEFAULT                X_U7.X1.DBLOCK  
+          IS  800.000000E-18                  800.000000E-18 
+          BV   25            
+
+
+               X_U4.X1.DDEFAULT                X_U4.X1.DBLOCK  
+          IS  800.000000E-18                  800.000000E-18 
+          BV   25            
+
+
+               X_U6.X1.DDEFAULT                X_U6.X1.DBLOCK  
+          IS  800.000000E-18                  800.000000E-18 
+          BV   25            
+
+
+               X_U5.X1.XD4.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U5.X1.XD3.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U5.X1.XD2.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U5.X1.XD1.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U5.X1.XU4.DVNF                X_U5.X1.XU3.DVN 
+          IS  100.000000E-18                  100.000000E-18 
+          KF   31.622780E-12                   31.622780E-12 
+
+
+               X_U7.X1.XD4.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U7.X1.XD3.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U7.X1.XD2.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U7.X1.XD1.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U7.X1.XU4.DVNF                X_U7.X1.XU3.DVN 
+          IS  100.000000E-18                  100.000000E-18 
+          KF   31.622780E-12                   31.622780E-12 
+
+
+               X_U4.X1.XD4.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U4.X1.XD3.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U4.X1.XD2.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U4.X1.XD1.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U4.X1.XU4.DVNF                X_U4.X1.XU3.DVN 
+          IS  100.000000E-18                  100.000000E-18 
+          KF   31.622780E-12                   31.622780E-12 
+
+
+               X_U6.X1.XD4.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U6.X1.XD3.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U6.X1.XD2.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U6.X1.XD1.IDIODE 
+          IS   10.000000E-15 
+           N     .01         
+          BV   60            
+         IBV    1.000000E-03 
+
+
+               X_U6.X1.XU4.DVNF                X_U6.X1.XU3.DVN 
+          IS  100.000000E-18                  100.000000E-18 
+          KF   31.622780E-12                   31.622780E-12 
+
+
+Starting pseudo-transient algorithm.
+
+INFO(ORPSIM-16594): To improve Pseudotransient Convergence and Performance, set following options to relax stabilization criteria for capacitor currents and inductor voltages: PTRANABSTOL=1e-5, PTRANVNTOL=1e-4
+
+**** 05/16/24 14:50:51 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TEST"  [ E:\Otros\Electrónica\PhonoPreamp\Simulations\PhonoPreamp1\PhonoPreamp1-PSpiceFiles\SCHEMATIC1\TEST.
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)    -.0028  ( +12V)   12.0000  ( -12V)  -12.0000  (N05584)-285.5E-06     
+
+(N05594)    -.0028 (N05656)     .0011 (N05666)     .0118 (N05760) 100.9E-06     
+
+(N05770)     .0012 (N06048)     .0117 (N06062)-391.5E-06 (N06112) 967.1E-06     
+
+(N06166)    0.0000 (N06186)-5.106E-06 (N06232)     .0117 (N06246) 967.1E-06     
+
+(N06510)    -.0018 (N06520)     .0021 (N06600) 436.3E-06 (N06658)     .0020     
+
+(N058961) 962.0E-06                   (N060200)-389.1E-06                       
+
+(X_U4.X1.5) 124.9E-06                 (X_U4.X1.6) 124.9E-06                     
+
+(X_U4.X1.8)     .0012                 (X_U4.X1.9)     .0012                     
+
+(X_U5.X1.5)     .0011                 (X_U5.X1.6)     .0011                     
+
+(X_U5.X1.8)     .0118                 (X_U5.X1.9)     .0118                     
+
+(X_U6.X1.5)-261.5E-06                 (X_U6.X1.6)-261.5E-06                     
+
+(X_U6.X1.8)    -.0028                 (X_U6.X1.9)    -.0028                     
+
+(X_U7.X1.5)     .0021                 (X_U7.X1.6)     .0021                     
+
+(X_U7.X1.8)     .0021                 (X_U7.X1.9)     .0021                     
+
+(X_U4.X1.10)     .0012                (X_U4.X1.14)     .0012                    
+
+(X_U4.X1.15) 124.9E-06                (X_U4.X1.16) 124.9E-06                    
+
+(X_U4.X1.17)-5.108E-06                (X_U4.X1.18)     .0012                    
+
+(X_U4.X1.19) 124.9E-06                (X_U4.X1.20) 100.9E-06                    
+
+(X_U4.X1.21)-5.108E-06                (X_U5.X1.10)     .0118                    
+
+(X_U5.X1.14)     .0118                (X_U5.X1.15)     .0011                    
+
+(X_U5.X1.16)     .0011                (X_U5.X1.17) 962.0E-06                    
+
+(X_U5.X1.18)     .0118                (X_U5.X1.19)     .0011                    
+
+(X_U5.X1.20)     .0011                (X_U5.X1.21) 962.0E-06                    
+
+(X_U6.X1.10)    -.0028                (X_U6.X1.14)    -.0028                    
+
+(X_U6.X1.15)-261.5E-06                (X_U6.X1.16)-261.5E-06                    
+
+(X_U6.X1.17)-391.5E-06                (X_U6.X1.18)    -.0028                    
+
+(X_U6.X1.19)-261.5E-06                (X_U6.X1.20)-285.5E-06                    
+
+(X_U6.X1.21)-391.5E-06                (X_U7.X1.10)     .0021                    
+
+(X_U7.X1.14)     .0021                (X_U7.X1.15)     .0021                    
+
+(X_U7.X1.16)     .0021                (X_U7.X1.17)     .0020                    
+
+(X_U7.X1.18)     .0021                (X_U7.X1.19)     .0021                    
+
+(X_U7.X1.20)     .0021                (X_U7.X1.21)     .0020                    
+
+(X_U4.X1.GNDF)    0.0000              (X_U5.X1.GNDF)    0.0000                  
+
+(X_U6.X1.GNDF)    0.0000              (X_U7.X1.GNDF)    0.0000                  
+
+(X_U4.X1.Vimon) 97.61E-09             (X_U4.X1.XU3.3)    0.0000                 
+
+(X_U4.X1.XU3.4)    0.0000             (X_U4.X1.XU3.5)    0.0000                 
+
+(X_U4.X1.XU3.6)    0.0000             (X_U4.X1.XU3.7)     .8338                 
+
+(X_U4.X1.XU3.8)     .8338             (X_U4.X1.XU4.3)    0.0000                 
+
+(X_U4.X1.XU4.4)    0.0000             (X_U4.X1.XU4.5)    0.0000                 
+
+(X_U4.X1.XU4.6)    0.0000             (X_U4.X1.XU4.7)     .8338                 
+
+(X_U4.X1.XU4.8)     .8338             (X_U4.X1.XU7.1) 24.00E-06                 
+
+(X_U4.X1.XU7.2)-3.493E-18             (X_U4.X1.XU8.1) 39.49E-12                 
+
+(X_U4.X1.XU8.2)-14.60E-24             (X_U5.X1.Vimon) 833.3E-09                 
+
+(X_U5.X1.XU3.3)    0.0000             (X_U5.X1.XU3.4)    0.0000                 
+
+(X_U5.X1.XU3.5)    0.0000             (X_U5.X1.XU3.6)    0.0000                 
+
+(X_U5.X1.XU3.7)     .8338             (X_U5.X1.XU3.8)     .8338                 
+
+(X_U5.X1.XU4.3)    0.0000             (X_U5.X1.XU4.4)    0.0000                 
+
+(X_U5.X1.XU4.5)    0.0000             (X_U5.X1.XU4.6)    0.0000                 
+
+(X_U5.X1.XU4.7)     .8338             (X_U5.X1.XU4.8)     .8338                 
+
+(X_U5.X1.XU7.1) 24.00E-06             (X_U5.X1.XU7.2)-3.429E-18                 
+
+(X_U5.X1.XU8.1) 345.3E-12             (X_U5.X1.XU8.2) 8.352E-18                 
+
+(X_U6.X1.Vimon)-267.0E-09             (X_U6.X1.XU3.3)    0.0000                 
+
+(X_U6.X1.XU3.4)    0.0000             (X_U6.X1.XU3.5)    0.0000                 
+
+(X_U6.X1.XU3.6)    0.0000             (X_U6.X1.XU3.7)     .8338                 
+
+(X_U6.X1.XU3.8)     .8338             (X_U6.X1.XU4.3)    0.0000                 
+
+(X_U6.X1.XU4.4)    0.0000             (X_U6.X1.XU4.5)    0.0000                 
+
+(X_U6.X1.XU4.6)    0.0000             (X_U6.X1.XU4.7)     .8338                 
+
+(X_U6.X1.XU4.8)     .8338             (X_U6.X1.XU7.1) 24.00E-06                 
+
+(X_U6.X1.XU7.2)-3.493E-18             (X_U6.X1.XU8.1)-84.10E-12                 
+
+(X_U6.X1.XU8.2)-1.397E-12             (X_U7.X1.Vimon) 154.4E-09                 
+
+(X_U7.X1.XU3.3)    0.0000             (X_U7.X1.XU3.4)    0.0000                 
+
+(X_U7.X1.XU3.5)    0.0000             (X_U7.X1.XU3.6)    0.0000                 
+
+(X_U7.X1.XU3.7)     .8338             (X_U7.X1.XU3.8)     .8338                 
+
+(X_U7.X1.XU4.3)    0.0000             (X_U7.X1.XU4.4)    0.0000                 
+
+(X_U7.X1.XU4.5)    0.0000             (X_U7.X1.XU4.6)    0.0000                 
+
+(X_U7.X1.XU4.7)     .8338             (X_U7.X1.XU4.8)     .8338                 
+
+(X_U7.X1.XU7.1) 24.00E-06             (X_U7.X1.XU7.2)-3.429E-18                 
+
+(X_U7.X1.XU8.1) 662.8E-12             (X_U7.X1.XU8.2)-10.97E-12                 
+
+(X_U4.X1.NET126)   11.5180            (X_U4.X1.NET128)  -25.1780                
+
+(X_U5.X1.NET126)   11.4630            (X_U5.X1.NET128)  -25.2340                
+
+(X_U6.X1.NET126)   25.2040            (X_U6.X1.NET128)  -11.4920                
+
+(X_U7.X1.NET126)   11.5070            (X_U7.X1.NET128)  -25.1900                
+
+(X_U4.X1.XU11.VP1)     .0012          (X_U4.X1.XU11.VP2)     .0012              
+
+(X_U4.X1.XU11.VP3)     .0012          (X_U4.X1.XU11.VP4)     .0012              
+
+(X_U4.X1.XU11.VX1)-43.57E-21          (X_U4.X1.XU11.VX2)-43.57E-21              
+
+(X_U4.X1.XU11.VX3)-43.58E-21          (X_U4.X1.XU11.VX4)-43.58E-21              
+
+(X_U4.X1.XU11.VX5)-43.58E-21          (X_U4.X1.XU11.VZ1)     .0012              
+
+(X_U4.X1.XU11.VZ2)     .0012          (X_U4.X1.XU11.VZ3)     .0012              
+
+(X_U4.X1.XU11.VZ4)     .0012          (X_U5.X1.XU11.VP1)     .0118              
+
+(X_U5.X1.XU11.VP2)     .0118          (X_U5.X1.XU11.VP3)     .0118              
+
+(X_U5.X1.XU11.VP4)     .0118          (X_U5.X1.XU11.VX1)-94.04E-18              
+
+(X_U5.X1.XU11.VX2)-94.04E-18          (X_U5.X1.XU11.VX3)-94.04E-18              
+
+(X_U5.X1.XU11.VX4)-94.04E-18          (X_U5.X1.XU11.VX5)-94.04E-18              
+
+(X_U5.X1.XU11.VZ1)     .0118          (X_U5.X1.XU11.VZ2)     .0118              
+
+(X_U5.X1.XU11.VZ3)     .0118          (X_U5.X1.XU11.VZ4)     .0118              
+
+(X_U6.X1.XU11.VP1)    -.0028          (X_U6.X1.XU11.VP2)    -.0028              
+
+(X_U6.X1.XU11.VP3)    -.0028          (X_U6.X1.XU11.VP4)    -.0028              
+
+(X_U6.X1.XU11.VX1)-4.462E-12          (X_U6.X1.XU11.VX2)-4.462E-12              
+
+(X_U6.X1.XU11.VX3)-4.462E-12          (X_U6.X1.XU11.VX4)-4.462E-12              
+
+(X_U6.X1.XU11.VX5)-4.462E-12          (X_U6.X1.XU11.VZ1)    -.0028              
+
+(X_U6.X1.XU11.VZ2)    -.0028          (X_U6.X1.XU11.VZ3)    -.0028              
+
+(X_U6.X1.XU11.VZ4)    -.0028          (X_U7.X1.XU11.VP1)     .0021              
+
+(X_U7.X1.XU11.VP2)     .0021          (X_U7.X1.XU11.VP3)     .0021              
+
+(X_U7.X1.XU11.VP4)     .0021          (X_U7.X1.XU11.VX1)-3.479E-12              
+
+(X_U7.X1.XU11.VX2)-3.479E-12          (X_U7.X1.XU11.VX3)-3.479E-12              
+
+(X_U7.X1.XU11.VX4)-3.479E-12          (X_U7.X1.XU11.VX5)-3.479E-12              
+
+(X_U7.X1.XU11.VZ1)     .0021          (X_U7.X1.XU11.VZ2)     .0021              
+
+(X_U7.X1.XU11.VZ3)     .0021          (X_U7.X1.XU11.VZ4)     .0021              
+
+(X_U4.X1.XU5.VDD_CLP)   11.0000       (X_U4.X1.XU5.VSS_CLP)  -11.0000           
+
+(X_U5.X1.XU5.VDD_CLP)   11.0000       (X_U5.X1.XU5.VSS_CLP)  -11.0000           
+
+(X_U6.X1.XU5.VDD_CLP)   11.0000       (X_U6.X1.XU5.VSS_CLP)  -11.0000           
+
+(X_U7.X1.XU5.VDD_CLP)   11.0000       (X_U7.X1.XU5.VSS_CLP)  -11.0000       
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -2.000E-02
+    V_V2        -2.000E-02
+    V_V1        -1.538E-08
+    X_U5.X1.Vos  -1.549E-08
+    X_U7.X1.Vos  -1.549E-08
+    X_U4.X1.Vos  -1.549E-08
+    X_U6.X1.Vos  -1.549E-08
+    X_U5.X1.XU6.VSENSE   8.333E-07
+    X_U7.X1.XU6.VSENSE   1.544E-07
+    X_U4.X1.XU6.VSENSE   9.761E-08
+    X_U6.X1.XU6.VSENSE  -2.670E-07
+
+    TOTAL POWER DISSIPATION   4.80E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/16/24 14:50:51 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TEST"  [ E:\Otros\Electrónica\PhonoPreamp\Simulations\PhonoPreamp1\PhonoPreamp1-PSpiceFiles\SCHEMATIC1\TEST.
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        2.36
+

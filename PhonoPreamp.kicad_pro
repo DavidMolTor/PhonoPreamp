@@ -612,6 +612,14 @@
     [
       "7e93146b-7f37-4f4c-90dc-1ca52f83de10",
       "Root"
+    ],
+    [
+      "8becc271-9166-46f1-a052-6ebfe68ac0bc",
+      "Power"
+    ],
+    [
+      "acf3da4f-07b8-4898-a737-f36bfdf1f987",
+      "Preamp"
     ]
   ],
   "text_variables": {}

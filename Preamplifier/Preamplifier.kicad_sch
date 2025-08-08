@@ -1016,6 +1016,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-12V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-12V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1298,12 +1524,6 @@
 		(uuid "2ccf62be-61e0-495e-bfd0-76021662c932")
 	)
 	(junction
-		(at 138.43 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32fc595e-c59b-46ad-a7b5-850dbd19b82b")
-	)
-	(junction
 		(at 86.36 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1388,12 +1608,6 @@
 		(uuid "64594e0b-7089-4f0b-afe0-31fa6adcc18b")
 	)
 	(junction
-		(at 138.43 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66011530-f707-4e4d-995b-363b82ea5574")
-	)
-	(junction
 		(at 191.77 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1476,6 +1690,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7decbe3e-57bd-477a-9d39-18b48638c552")
+	)
+	(junction
+		(at 138.43 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa47e0a-5b56-4999-ba1e-bb65658cfcf6")
 	)
 	(junction
 		(at 132.08 69.85)
@@ -1704,6 +1924,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efb632ed-fc87-4f3c-b3e9-be19eb28e34b")
+	)
+	(junction
+		(at 138.43 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd7ab25-1665-4dc3-91f6-70dec0a29c52")
 	)
 	(junction
 		(at 151.13 39.37)
@@ -3997,7 +4223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 39.37 41.91 0)
 			(effects
 				(font
@@ -5634,7 +5860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 220.98 64.77 0)
 			(effects
 				(font
@@ -5722,7 +5948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 148.59 31.75 0)
 			(effects
 				(font
@@ -5750,28 +5976,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "7247fa36-720e-41c2-be69-6bdd452eb11e")
+			(uuid "7247fa36-720e-41c2-be69-6bdd452eb11f")
 		)
 		(pin "2"
-			(uuid "d0111e1e-3a5d-4d15-a3ab-062e7d1a8526")
+			(uuid "d0111e1e-3a5d-4d15-a3ab-062e7d1a8527")
 		)
 		(pin "8"
-			(uuid "278335f2-a7ef-4359-b549-da90a3be333b")
+			(uuid "278335f2-a7ef-4359-b549-da90a3be333c")
 		)
 		(pin "5"
-			(uuid "9800dc16-ba0b-4ac2-b7c3-2e68bde38e81")
+			(uuid "9800dc16-ba0b-4ac2-b7c3-2e68bde38e82")
 		)
 		(pin "1"
-			(uuid "787c52b4-4186-4843-a656-7a154247d355")
+			(uuid "787c52b4-4186-4843-a656-7a154247d356")
 		)
 		(pin "6"
-			(uuid "7427101e-83c2-41c8-a364-e018f3bbd5f6")
+			(uuid "7427101e-83c2-41c8-a364-e018f3bbd5f7")
 		)
 		(pin "7"
-			(uuid "9a453f59-59b2-49be-81b9-e69451901379")
+			(uuid "9a453f59-59b2-49be-81b9-e6945190137a")
 		)
 		(pin "4"
-			(uuid "26e452fb-9767-46af-ad50-16b871ac58a3")
+			(uuid "26e452fb-9767-46af-ad50-16b871ac58a4")
 		)
 		(instances
 			(project ""
@@ -6088,7 +6314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 166.37 31.75 0)
 			(effects
 				(font
@@ -6116,28 +6342,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "2d35e1f4-0e09-4ba1-b706-6e1cc49160cf")
+			(uuid "2d35e1f4-0e09-4ba1-b706-6e1cc49160d0")
 		)
 		(pin "3"
-			(uuid "ade1d026-f886-4267-822a-032b71f03af6")
+			(uuid "ade1d026-f886-4267-822a-032b71f03af7")
 		)
 		(pin "2"
-			(uuid "1faf9b73-a5a3-477b-995b-276bfb12ff61")
+			(uuid "1faf9b73-a5a3-477b-995b-276bfb12ff62")
 		)
 		(pin "5"
-			(uuid "cc790d50-a156-4da3-9d1a-29a411ed5f67")
+			(uuid "cc790d50-a156-4da3-9d1a-29a411ed5f68")
 		)
 		(pin "7"
-			(uuid "eda95fb1-baa9-4c72-881d-38ec1330673d")
+			(uuid "eda95fb1-baa9-4c72-881d-38ec1330673e")
 		)
 		(pin "6"
-			(uuid "1cc96ac0-040d-4b61-96a4-2fc02098ed89")
+			(uuid "1cc96ac0-040d-4b61-96a4-2fc02098ed8a")
 		)
 		(pin "1"
-			(uuid "ba1ff0bc-3d92-46bc-b6f0-7d4d4e6abe5c")
+			(uuid "ba1ff0bc-3d92-46bc-b6f0-7d4d4e6abe5d")
 		)
 		(pin "4"
-			(uuid "9b004e17-67fa-4913-a366-ecc1d2320fda")
+			(uuid "9b004e17-67fa-4913-a366-ecc1d2320fdb")
 		)
 		(instances
 			(project ""
@@ -6761,6 +6987,93 @@
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "#PWR017")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 68.58 166.37 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53a78d19-6ec2-418d-99c1-d384aa2f0c39")
+		(property "Reference" "U1"
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 68.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 68.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 68.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 68.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2bca169-011c-4827-a6e1-cda532fe7611")
+		)
+		(pin "3"
+			(uuid "984cb688-0076-496e-a496-5d39c4b90c33")
+		)
+		(pin "8"
+			(uuid "dc6df63c-cf4c-4af5-88c6-f36da1bb6c4a")
+		)
+		(pin "5"
+			(uuid "419a887a-a2c5-49df-8609-3166bbb3b203")
+		)
+		(pin "4"
+			(uuid "cbf2fd2d-d029-4ac4-a5f3-1d02f54899d5")
+		)
+		(pin "6"
+			(uuid "f41d7810-e36e-4ec6-a646-d53a520033fd")
+		)
+		(pin "1"
+			(uuid "8b18332d-f088-4d57-b095-8e50c0c7b404")
+		)
+		(pin "7"
+			(uuid "3fee112a-f4c2-4958-833c-409c3bc764e4")
+		)
+		(instances
+			(project ""
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -8151,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 73.66 39.37 0)
 			(effects
 				(font
@@ -8179,19 +8492,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "7247fa36-720e-41c2-be69-6bdd452eb11e")
+			(uuid "7247fa36-720e-41c2-be69-6bdd452eb120")
 		)
 		(pin "2"
-			(uuid "d0111e1e-3a5d-4d15-a3ab-062e7d1a8526")
+			(uuid "d0111e1e-3a5d-4d15-a3ab-062e7d1a8528")
 		)
 		(pin "8"
-			(uuid "278335f2-a7ef-4359-b549-da90a3be333b")
+			(uuid "278335f2-a7ef-4359-b549-da90a3be333d")
 		)
 		(pin "5"
 			(uuid "56a2b0c9-ec83-4817-acbe-8b201bed42a1")
 		)
 		(pin "1"
-			(uuid "787c52b4-4186-4843-a656-7a154247d355")
+			(uuid "787c52b4-4186-4843-a656-7a154247d357")
 		)
 		(pin "6"
 			(uuid "89e43267-9ef2-4372-9f5a-808a072a7c11")
@@ -8200,7 +8513,7 @@
 			(uuid "d888e39c-6c4b-4197-b685-f5688d78b114")
 		)
 		(pin "4"
-			(uuid "26e452fb-9767-46af-ad50-16b871ac58a3")
+			(uuid "26e452fb-9767-46af-ad50-16b871ac58a5")
 		)
 		(instances
 			(project "Preamplifier"
@@ -8446,7 +8759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 175.26 31.75 0)
 			(effects
 				(font
@@ -8907,6 +9220,73 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 130.81 16.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "918a58b2-85d0-414a-abdb-f9752faa1f09")
+		(property "Reference" "#PWR019"
+			(at 134.62 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 127 16.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 130.81 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c73cad-4357-4748-a6f8-5030f7da5aa5")
+		)
+		(instances
+			(project ""
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9992,93 +10372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 73.66 69.85 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a61e1428-0cce-4457-82be-a780f8f53e23")
-		(property "Reference" "U1"
-			(at 73.66 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 73.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ad2465b8-b9e2-4158-8c34-2c551d14ab22")
-		)
-		(pin "2"
-			(uuid "816ed0b3-88f9-4422-9034-2248720a4229")
-		)
-		(pin "6"
-			(uuid "e25b72c5-965a-47ef-8030-16985997567b")
-		)
-		(pin "1"
-			(uuid "60aff06c-8f28-47a2-a347-da10a302604b")
-		)
-		(pin "5"
-			(uuid "78fd2cee-7546-4583-aa97-5faf77e65320")
-		)
-		(pin "7"
-			(uuid "093d2cfe-d2c7-46a8-937b-bc1e043fe35a")
-		)
-		(pin "8"
-			(uuid "a8dfa897-a2b1-44dd-a446-58ceeeaac9e0")
-		)
-		(pin "4"
-			(uuid "16c39715-ddc5-45a5-9dc5-a94c6417f1e0")
-		)
-		(instances
-			(project ""
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 25.4 87.63 180)
 		(unit 1)
@@ -10206,6 +10499,93 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 73.66 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7ef8f0f-f8d4-4954-b65c-7b41ca6f5fb8")
+		(property "Reference" "U1"
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2bca169-011c-4827-a6e1-cda532fe7612")
+		)
+		(pin "3"
+			(uuid "984cb688-0076-496e-a496-5d39c4b90c34")
+		)
+		(pin "8"
+			(uuid "dc6df63c-cf4c-4af5-88c6-f36da1bb6c4b")
+		)
+		(pin "5"
+			(uuid "419a887a-a2c5-49df-8609-3166bbb3b204")
+		)
+		(pin "4"
+			(uuid "cbf2fd2d-d029-4ac4-a5f3-1d02f54899d6")
+		)
+		(pin "6"
+			(uuid "f41d7810-e36e-4ec6-a646-d53a520033fe")
+		)
+		(pin "1"
+			(uuid "8b18332d-f088-4d57-b095-8e50c0c7b405")
+		)
+		(pin "7"
+			(uuid "3fee112a-f4c2-4958-833c-409c3bc764e5")
+		)
+		(instances
+			(project ""
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10512,7 +10892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 153.67 163.83 0)
 			(effects
 				(font
@@ -10599,7 +10979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -10627,28 +11007,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "2d35e1f4-0e09-4ba1-b706-6e1cc49160cf")
+			(uuid "2d35e1f4-0e09-4ba1-b706-6e1cc49160d1")
 		)
 		(pin "3"
-			(uuid "ade1d026-f886-4267-822a-032b71f03af6")
+			(uuid "ade1d026-f886-4267-822a-032b71f03af8")
 		)
 		(pin "2"
-			(uuid "1faf9b73-a5a3-477b-995b-276bfb12ff61")
+			(uuid "1faf9b73-a5a3-477b-995b-276bfb12ff63")
 		)
 		(pin "5"
-			(uuid "cc790d50-a156-4da3-9d1a-29a411ed5f67")
+			(uuid "cc790d50-a156-4da3-9d1a-29a411ed5f69")
 		)
 		(pin "7"
-			(uuid "eda95fb1-baa9-4c72-881d-38ec1330673d")
+			(uuid "eda95fb1-baa9-4c72-881d-38ec1330673f")
 		)
 		(pin "6"
-			(uuid "1cc96ac0-040d-4b61-96a4-2fc02098ed89")
+			(uuid "1cc96ac0-040d-4b61-96a4-2fc02098ed8b")
 		)
 		(pin "1"
-			(uuid "ba1ff0bc-3d92-46bc-b6f0-7d4d4e6abe5c")
+			(uuid "ba1ff0bc-3d92-46bc-b6f0-7d4d4e6abe5e")
 		)
 		(pin "4"
-			(uuid "9b004e17-67fa-4913-a366-ecc1d2320fda")
+			(uuid "9b004e17-67fa-4913-a366-ecc1d2320fdc")
 		)
 		(instances
 			(project ""
@@ -11020,7 +11400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 34.29 138.43 0)
 			(effects
 				(font
@@ -11048,28 +11428,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "1ebec86e-b4a3-4a65-955a-2ff5673c439d")
+			(uuid "1ebec86e-b4a3-4a65-955a-2ff5673c439e")
 		)
 		(pin "2"
-			(uuid "2335e797-d49e-4e59-b8ae-8690df39275d")
+			(uuid "2335e797-d49e-4e59-b8ae-8690df39275e")
 		)
 		(pin "8"
-			(uuid "c4ddbf31-44db-497c-a770-88e3e43c3dd8")
+			(uuid "c4ddbf31-44db-497c-a770-88e3e43c3dd9")
 		)
 		(pin "6"
-			(uuid "069772f3-c29a-4114-9357-3b6115af3111")
+			(uuid "069772f3-c29a-4114-9357-3b6115af3112")
 		)
 		(pin "4"
-			(uuid "f48f0505-d62c-493e-804a-5072b5d1559f")
+			(uuid "f48f0505-d62c-493e-804a-5072b5d155a0")
 		)
 		(pin "1"
-			(uuid "958e973e-35af-4440-a992-207bf320aa9c")
+			(uuid "958e973e-35af-4440-a992-207bf320aa9d")
 		)
 		(pin "3"
-			(uuid "2ec6cd0e-683e-4ea7-bbd9-c5d4c7ce8851")
+			(uuid "2ec6cd0e-683e-4ea7-bbd9-c5d4c7ce8852")
 		)
 		(pin "7"
-			(uuid "2533295e-bd7d-4f27-a18b-06f1baaeb2e2")
+			(uuid "2533295e-bd7d-4f27-a18b-06f1baaeb2e3")
 		)
 		(instances
 			(project ""
@@ -11107,7 +11487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 209.55 130.81 0)
 			(effects
 				(font
@@ -11135,123 +11515,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "da7d187b-d83a-415c-b11c-59275fb468e6")
+			(uuid "da7d187b-d83a-415c-b11c-59275fb468e7")
 		)
 		(pin "4"
-			(uuid "6fa1a550-7a8d-440d-a02c-bce0ef465686")
+			(uuid "6fa1a550-7a8d-440d-a02c-bce0ef465687")
 		)
 		(pin "3"
-			(uuid "7a8b4398-ee5e-4bc4-a86b-02f286ebf24e")
+			(uuid "7a8b4398-ee5e-4bc4-a86b-02f286ebf24f")
 		)
 		(pin "5"
-			(uuid "b4ed5fb5-d745-4a13-8ee7-0dfcdd5c610f")
+			(uuid "b4ed5fb5-d745-4a13-8ee7-0dfcdd5c6110")
 		)
 		(pin "7"
-			(uuid "be81b17b-ebce-419b-bb14-87a3c058347d")
+			(uuid "be81b17b-ebce-419b-bb14-87a3c058347e")
 		)
 		(pin "8"
-			(uuid "7b4f17ce-f153-4374-b519-5b5896b90806")
+			(uuid "7b4f17ce-f153-4374-b519-5b5896b90807")
 		)
 		(pin "6"
-			(uuid "3968e40f-4092-4c69-9e69-84a96887eb21")
+			(uuid "3968e40f-4092-4c69-9e69-84a96887eb22")
 		)
 		(pin "1"
-			(uuid "7f348dcd-e43d-4905-bad7-f1b0de7800b7")
+			(uuid "7f348dcd-e43d-4905-bad7-f1b0de7800b8")
 		)
 		(instances
 			(project ""
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "U5")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 140.97 31.75 0)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce55d30c-71ca-4212-80ce-ed39a90ae32d")
-		(property "Reference" "U1"
-			(at 137.16 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 137.16 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 140.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 140.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ad2465b8-b9e2-4158-8c34-2c551d14ab22")
-		)
-		(pin "2"
-			(uuid "816ed0b3-88f9-4422-9034-2248720a4229")
-		)
-		(pin "6"
-			(uuid "e25b72c5-965a-47ef-8030-16985997567b")
-		)
-		(pin "1"
-			(uuid "60aff06c-8f28-47a2-a347-da10a302604b")
-		)
-		(pin "5"
-			(uuid "78fd2cee-7546-4583-aa97-5faf77e65320")
-		)
-		(pin "7"
-			(uuid "093d2cfe-d2c7-46a8-937b-bc1e043fe35a")
-		)
-		(pin "8"
-			(uuid "a8dfa897-a2b1-44dd-a446-58ceeeaac9e0")
-		)
-		(pin "4"
-			(uuid "16c39715-ddc5-45a5-9dc5-a94c6417f1e0")
-		)
-		(instances
-			(project ""
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "U1")
-					(unit 3)
 				)
 			)
 		)
@@ -11486,7 +11777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 68.58 135.89 0)
 			(effects
 				(font
@@ -11514,28 +11805,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "1ebec86e-b4a3-4a65-955a-2ff5673c439d")
+			(uuid "1ebec86e-b4a3-4a65-955a-2ff5673c439f")
 		)
 		(pin "2"
-			(uuid "2335e797-d49e-4e59-b8ae-8690df39275d")
+			(uuid "2335e797-d49e-4e59-b8ae-8690df39275f")
 		)
 		(pin "8"
-			(uuid "c4ddbf31-44db-497c-a770-88e3e43c3dd8")
+			(uuid "c4ddbf31-44db-497c-a770-88e3e43c3dda")
 		)
 		(pin "6"
-			(uuid "069772f3-c29a-4114-9357-3b6115af3111")
+			(uuid "069772f3-c29a-4114-9357-3b6115af3113")
 		)
 		(pin "4"
-			(uuid "f48f0505-d62c-493e-804a-5072b5d1559f")
+			(uuid "f48f0505-d62c-493e-804a-5072b5d155a1")
 		)
 		(pin "1"
-			(uuid "958e973e-35af-4440-a992-207bf320aa9c")
+			(uuid "958e973e-35af-4440-a992-207bf320aa9e")
 		)
 		(pin "3"
-			(uuid "2ec6cd0e-683e-4ea7-bbd9-c5d4c7ce8851")
+			(uuid "2ec6cd0e-683e-4ea7-bbd9-c5d4c7ce8853")
 		)
 		(pin "7"
-			(uuid "2533295e-bd7d-4f27-a18b-06f1baaeb2e2")
+			(uuid "2533295e-bd7d-4f27-a18b-06f1baaeb2e4")
 		)
 		(instances
 			(project ""
@@ -11675,6 +11966,95 @@
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "#PWR08")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 140.97 31.75 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8e02970-6194-40ad-b766-538309fbaa86")
+		(property "Reference" "U1"
+			(at 137.16 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 137.16 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2bca169-011c-4827-a6e1-cda532fe7613")
+		)
+		(pin "3"
+			(uuid "984cb688-0076-496e-a496-5d39c4b90c35")
+		)
+		(pin "8"
+			(uuid "dc6df63c-cf4c-4af5-88c6-f36da1bb6c4c")
+		)
+		(pin "5"
+			(uuid "419a887a-a2c5-49df-8609-3166bbb3b205")
+		)
+		(pin "4"
+			(uuid "cbf2fd2d-d029-4ac4-a5f3-1d02f54899d7")
+		)
+		(pin "6"
+			(uuid "f41d7810-e36e-4ec6-a646-d53a520033ff")
+		)
+		(pin "1"
+			(uuid "8b18332d-f088-4d57-b095-8e50c0c7b406")
+		)
+		(pin "7"
+			(uuid "3fee112a-f4c2-4958-833c-409c3bc764e6")
+		)
+		(instances
+			(project ""
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -11942,6 +12322,73 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 130.81 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e775e42d-9908-49c9-ace2-da0cc9fd7715")
+		(property "Reference" "#PWR018"
+			(at 134.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 127 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b080fe12-c811-48d6-8c51-12e90518dedd")
+		)
+		(instances
+			(project ""
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12380,7 +12827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 194.31 31.75 0)
 			(effects
 				(font
@@ -12408,121 +12855,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "da7d187b-d83a-415c-b11c-59275fb468e6")
+			(uuid "da7d187b-d83a-415c-b11c-59275fb468e8")
 		)
 		(pin "4"
-			(uuid "6fa1a550-7a8d-440d-a02c-bce0ef465686")
+			(uuid "6fa1a550-7a8d-440d-a02c-bce0ef465688")
 		)
 		(pin "3"
-			(uuid "7a8b4398-ee5e-4bc4-a86b-02f286ebf24e")
+			(uuid "7a8b4398-ee5e-4bc4-a86b-02f286ebf250")
 		)
 		(pin "5"
-			(uuid "b4ed5fb5-d745-4a13-8ee7-0dfcdd5c610f")
+			(uuid "b4ed5fb5-d745-4a13-8ee7-0dfcdd5c6111")
 		)
 		(pin "7"
-			(uuid "be81b17b-ebce-419b-bb14-87a3c058347d")
+			(uuid "be81b17b-ebce-419b-bb14-87a3c058347f")
 		)
 		(pin "8"
-			(uuid "7b4f17ce-f153-4374-b519-5b5896b90806")
+			(uuid "7b4f17ce-f153-4374-b519-5b5896b90808")
 		)
 		(pin "6"
-			(uuid "3968e40f-4092-4c69-9e69-84a96887eb21")
+			(uuid "3968e40f-4092-4c69-9e69-84a96887eb23")
 		)
 		(pin "1"
-			(uuid "7f348dcd-e43d-4905-bad7-f1b0de7800b7")
+			(uuid "7f348dcd-e43d-4905-bad7-f1b0de7800b9")
 		)
 		(instances
 			(project ""
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "U5")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 68.58 166.37 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef65a37a-beef-4536-93d1-50a0e6dd31a2")
-		(property "Reference" "U1"
-			(at 68.58 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 68.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 68.58 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 68.58 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ad2465b8-b9e2-4158-8c34-2c551d14ab22")
-		)
-		(pin "2"
-			(uuid "816ed0b3-88f9-4422-9034-2248720a4229")
-		)
-		(pin "6"
-			(uuid "e25b72c5-965a-47ef-8030-16985997567b")
-		)
-		(pin "1"
-			(uuid "60aff06c-8f28-47a2-a347-da10a302604b")
-		)
-		(pin "5"
-			(uuid "78fd2cee-7546-4583-aa97-5faf77e65320")
-		)
-		(pin "7"
-			(uuid "093d2cfe-d2c7-46a8-937b-bc1e043fe35a")
-		)
-		(pin "8"
-			(uuid "a8dfa897-a2b1-44dd-a446-58ceeeaac9e0")
-		)
-		(pin "4"
-			(uuid "16c39715-ddc5-45a5-9dc5-a94c6417f1e0")
-		)
-		(instances
-			(project ""
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)

@@ -1,7 +1,33 @@
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM4562.LIB, offset=1757, size=78
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LF353.LIB, offset=378, size=775
- lib=C:\Cadence\PSpiceTI\tools\PSpice\Library\breakout.lib, offset=7617, size=133
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\TPS16850_TRANS.lib, offset=36083, size=133
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=3712, size=8849
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM4562.LIB, offset=1836, size=2262
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=12562, size=118
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=12681, size=117
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=12799, size=118
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=12918, size=182
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=13101, size=182
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=16627, size=323
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=13880, size=257
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=13621, size=258
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=16129, size=139
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=14327, size=179
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=14138, size=188
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=14853, size=180
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=15282, size=181
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=14682, size=170
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=15802, size=174
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=16269, size=182
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=15977, size=151
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=13284, size=159
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=13444, size=176
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=17101, size=176
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=14507, size=174
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=15464, size=337
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=16951, size=149
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=15034, size=247
+ lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA161x.LIB, offset=16452, size=174
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM4562.LIB, offset=4099, size=389
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM4562.LIB, offset=4489, size=328
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM4562.LIB, offset=4818, size=365

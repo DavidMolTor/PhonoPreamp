@@ -1,6 +1,6 @@
 (ExpressProject "PhonoPreamp"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[08/05/25]")
+  (SoftwareVersion "23.1-2024 S001-[08/08/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -33,6 +33,10 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (OPA161x
+      (FullPartName "OPA161x.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\OPA161X.OLB")
+      (DeviceIndex "0"))
     (VAC
       (FullPartName "VAC.Normal")
       (LibraryName
@@ -89,10 +93,30 @@
       (Path "Outputs")
       (Select "Design Resources"
          "D:\Otros\Electrónica\PhonoPreamp\Simulations\phonopreamp.dsn"
-         "SCHEMATIC1" "PAGE1"))
+         "SCHEMATIC1" "PAGE2"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 734"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 728"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 265 24 746")
+        (Scroll "0 -3")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path "D:\OTROS\ELECTRÓNICA\PHONOPREAMP\SIMULATIONS\PHONOPREAMP.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 265 24 746")
+        (Scroll "0 -3")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path "D:\OTROS\ELECTRÓNICA\PHONOPREAMP\SIMULATIONS\PHONOPREAMP.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

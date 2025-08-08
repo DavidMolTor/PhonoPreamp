@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -186,9 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -416,7 +403,6 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "different_unit_footprint": "error",
@@ -464,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PhonoPreamp.kicad_pro",
+    "filename": "PowerSupply.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -482,7 +468,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -610,19 +596,9 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -634,16 +610,8 @@
   },
   "sheets": [
     [
-      "7e93146b-7f37-4f4c-90dc-1ca52f83de10",
+      "a799d94b-b267-47a5-8906-3cd7dbbcc515",
       "Root"
-    ],
-    [
-      "8becc271-9166-46f1-a052-6ebfe68ac0bc",
-      "Power"
-    ],
-    [
-      "acf3da4f-07b8-4898-a737-f36bfdf1f987",
-      "Preamp"
     ]
   ],
   "text_variables": {}

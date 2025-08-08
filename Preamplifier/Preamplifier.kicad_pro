@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PhonoPreamp.kicad_pro",
+    "filename": "Preamplifier.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -610,7 +610,7 @@
   },
   "sheets": [
     [
-      "7e93146b-7f37-4f4c-90dc-1ca52f83de10",
+      "506a4015-8700-461c-aa21-0f1930354b08",
       "Root"
     ]
   ],

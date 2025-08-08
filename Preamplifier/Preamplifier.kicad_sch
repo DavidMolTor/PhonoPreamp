@@ -2,13 +2,19 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3e46f641-1d8a-4880-9c02-7decc76ab1b9")
+	(uuid "506a4015-8700-461c-aa21-0f1930354b08")
 	(paper "A4")
 	(title_block
 		(title "PHONO PREAMP")
-		(date "2025-08-05")
+		(date "2025-08-08")
 		(rev "1.0")
 		(company "Chapuzas S.L.")
 	)
 	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

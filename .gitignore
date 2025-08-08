@@ -28,5 +28,8 @@ fp-info-cache
 *.xml
 *.csv
 
+# Gerber folders
+Gerber
+
 # Old folders
 OLD

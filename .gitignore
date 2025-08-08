@@ -28,5 +28,8 @@ fp-info-cache
 *.xml
 *.csv
 
+# References
+References
+
 # Old folders
 OLD

@@ -2504,50 +2504,6 @@
 		)
 		(uuid "ff567d21-f5bb-4f5a-9b76-23d26ddd23a1")
 	)
-	(global_label "+12V"
-		(shape input)
-		(at 214.63 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d8bb8a1-f063-40d8-8884-e7d16beb7f43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.6952 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-12V"
-		(shape input)
-		(at 214.63 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab69736f-2f46-4bad-84dd-5f028605fa77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.6952 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Diode_Bridge:MDB6S")
 		(at 107.95 96.52 0)

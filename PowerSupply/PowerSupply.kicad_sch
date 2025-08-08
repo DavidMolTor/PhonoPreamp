@@ -3623,16 +3623,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 224.79 86.36 180)
+		(at 224.79 86.36 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ae81860-c446-4e7d-8f75-388ea703185a")
 		(property "Reference" "J3"
-			(at 226.06 85.0899 0)
+			(at 226.06 85.0901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3641,7 @@
 			)
 		)
 		(property "Value" "POWER"
-			(at 226.06 87.6299 0)
+			(at 226.06 87.6301 0)
 			(effects
 				(font
 					(size 1.27 1.27)

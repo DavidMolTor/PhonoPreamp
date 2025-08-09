@@ -6076,7 +6076,7 @@
 		(property "Reference" "TR1"
 			(at 10 -12.499999 0)
 			(layer "F.SilkS")
-			(uuid "938f468d-72c6-4db6-ad87-8361c803005e")
+			(uuid "201aba0b-2e11-45ca-a8aa-8593c7210406")
 			(effects
 				(font
 					(size 1 1)
@@ -6087,7 +6087,7 @@
 		(property "Value" "TEZ1.5-D-2"
 			(at 10 -11 90)
 			(layer "F.Fab")
-			(uuid "9b6b93db-3ced-4aca-8bf4-72fd0a4784d3")
+			(uuid "2b850e3d-60c9-4054-b1e1-6241f0da981f")
 			(effects
 				(font
 					(size 1 1)
@@ -6100,7 +6100,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1969384b-6ab0-4807-96c5-5b595b34b33b")
+			(uuid "d520b855-f565-442c-9e6c-de04e714ad13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6113,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c5fba7f-ce2a-47d7-9c39-a98ca1d91207")
+			(uuid "5f345581-087a-49d3-92a6-38638644e712")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,12 +8511,12 @@
 	(footprint "Logos:HighVoltage"
 		(layer "B.Cu")
 		(uuid "cc1fe51f-434c-48e5-8438-23fe4239edc5")
-		(at 121.355046 98.748893 -90)
+		(at 122.105046 99.498893 -90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "bead8bd1-6728-4893-9385-5b112fe46938")
+			(uuid "031cffb9-32d6-4778-8fbc-b03addb4fa66")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8529,7 +8529,7 @@
 			(at 0.075 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "d798ad4d-78ad-4360-a8fe-0b8bb75280d9")
+			(uuid "9f1afd7d-3612-409c-a089-a447d89f8dce")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8542,7 +8542,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "84649aa1-96be-47b5-8bcd-e18eb3593029")
+			(uuid "a0967258-6737-41a3-a4a1-cd13205932c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8555,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1bf0f29d-edda-4bfa-8986-23f0e1fdc614")
+			(uuid "ca006d73-738b-4428-b926-92881eef3dfc")
 			(effects
 				(font
 					(size 1.27 1.27)

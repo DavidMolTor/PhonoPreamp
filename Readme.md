@@ -1,19 +1,25 @@
 # Phono Preamplifier
 
-A phono preamplifier with adjustable gain and other configurable settings.
+A simple and precise phono preamplifier with a linear power supply.
 
 ## Introduction
 
-This module is intended to be used with moving magnet capsules. It has selectable input capacitance and an anti-rumble stage that can be enabled or bypassed.
+This project contains the design for a phono preamplifier to be used with moving magnet capsules. It is optimized for low noise and distortion levels and has an accurate RIAA equalization stage.
 
-The objective is to achive low noise floor and distortion harmonics. Initially, a modular power supply is used to generate the positive and negative rails.
+<p align="center"><img src="/Preamplifier/Design/Preamplifier.png" alt="PREAMPLIFIER"></p>
 
-<p align="center"><img src="/PhonoPreamp.png" alt="PHONO PREAMPLIFIER"></p>
+The project also contains the design of a dual rail linear power supply in order to achive the lowest possible supply noise while keeping costs low.
+
+<p align="center"><img src="/PowerSupply/Design/PowerSupply.png" alt="POWER SUPPLY"></p>
 
 ## Features
 
- - Adjustable gain output stage.
+ - Compact form factor.
 
- - Configurable input capacitance.
+ - Precise RIAA equalization.
 
- - Selectable anti-rumble filter stage.
+ - Low-noise linear power supply.
+
+ - High-performance audio components.
+
+ - Modular design for other applications.

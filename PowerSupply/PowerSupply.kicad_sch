@@ -134,7 +134,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -150,7 +150,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -176,21 +176,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -211,68 +203,43 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
-					(start 0.8636 2.667)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
 					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 0.127)
+					(start -1.27 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -2.413)
+					(start -1.27 -2.413)
 					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -282,7 +249,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -300,7 +267,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -318,7 +285,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2279,7 +2246,7 @@
 	(text_box "POWER SUPPLY"
 		(exclude_from_sim no)
 		(at 53.34 40.64 0)
-		(size 185.42 91.44)
+		(size 186.69 91.44)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2544,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 86.36) (xy 219.71 86.36)
+			(xy 209.55 86.36) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2601,6 +2568,16 @@
 			(type default)
 		)
 		(uuid "30178706-66c0-413d-8980-2691f06fa4f4")
+	)
+	(wire
+		(pts
+			(xy 219.71 83.82) (xy 222.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370f1c70-9d25-4194-bd9d-f700d8f11216")
 	)
 	(wire
 		(pts
@@ -3154,6 +3131,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 88.9) (xy 222.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c9a723-2a3b-46a6-b096-83846942f378")
+	)
+	(wire
+		(pts
 			(xy 129.54 60.96) (xy 129.54 63.5)
 		)
 		(stroke
@@ -3616,79 +3603,6 @@
 			(project "PowerSupply"
 				(path "/a799d94b-b267-47a5-8906-3cd7dbbcc515"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 224.79 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ae81860-c446-4e7d-8f75-388ea703185a")
-		(property "Reference" "J3"
-			(at 226.06 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "POWER"
-			(at 226.06 87.6301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2f2d4b84-a3c7-4382-b24b-b22e94c19be6")
-		)
-		(pin "1"
-			(uuid "74fe7a81-ccb2-4278-84f9-b97d4c547ecf")
-		)
-		(pin "2"
-			(uuid "e52b6435-78d8-4316-978b-793ab3ca0130")
-		)
-		(instances
-			(project "PowerSupply"
-				(path "/a799d94b-b267-47a5-8906-3cd7dbbcc515"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4466,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_THT:Transformer_Breve_TEZ-44x52"
+		(property "Footprint" "Custom_Parts:TRANSFORMER_TEZ-44X52"
 			(at 80.01 100.33 0)
 			(effects
 				(font
@@ -5562,6 +5476,79 @@
 			(project "PowerSupply"
 				(path "/a799d94b-b267-47a5-8906-3cd7dbbcc515"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 227.33 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f89d3779-5a35-44c9-9193-c0968dffd776")
+		(property "Reference" "J3"
+			(at 229.87 87.6301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER"
+			(at 229.87 85.0901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:Molex_KK-254_1x03_P2.54mm_Vertical"
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32668cc5-3ac9-4371-98cb-b77f077dba33")
+		)
+		(pin "3"
+			(uuid "b028438d-8a96-4d10-9a30-d7628df8d669")
+		)
+		(pin "2"
+			(uuid "201648b9-08dc-4f3d-984e-aca19e43e440")
+		)
+		(instances
+			(project ""
+				(path "/a799d94b-b267-47a5-8906-3cd7dbbcc515"
+					(reference "J3")
 					(unit 1)
 				)
 			)

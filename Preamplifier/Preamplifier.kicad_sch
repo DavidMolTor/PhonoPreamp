@@ -265,210 +265,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -601,6 +397,177 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4025,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Custom_Parts:Molex_KK-254_1x02_P2.54mm_Vertical"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -4405,77 +4372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 30.48 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cf61a98-f4ee-40a1-a283-4ec0fea6a83f")
-		(property "Reference" "J1"
-			(at 31.115 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "POWER"
-			(at 31.115 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 30.48 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 30.48 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d08572e7-1dd7-4da4-a4b5-6eeb69ba553b")
-		)
-		(pin "3"
-			(uuid "271b2f12-6be5-4d1d-bc68-5e7af8b9a4ef")
-		)
-		(pin "2"
-			(uuid "c6ceed0e-977e-48bf-be30-89ddc1401fe9")
-		)
-		(instances
-			(project ""
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 220.98 69.85 0)
 		(unit 1)
@@ -4821,7 +4717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38c4dfde-75dc-4fd0-ac69-d4bf31cd012e")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG010"
 			(at 104.775 180.34 0)
 			(effects
 				(font
@@ -4872,7 +4768,7 @@
 		(instances
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG09")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -5043,7 +4939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Custom_Parts:Molex_KK-254_1x02_P2.54mm_Vertical"
 			(at 38.1 39.37 0)
 			(effects
 				(font
@@ -5740,7 +5636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Custom_Parts:Molex_KK-254_1x02_P2.54mm_Vertical"
 			(at 254 41.91 0)
 			(effects
 				(font
@@ -6655,13 +6551,13 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 105.41 90)
+		(at 227.33 105.41 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b061a8f-e782-4c98-a46d-c2dbba736c77")
 		(property "Reference" "C26"
 			(at 227.33 97.79 90)
@@ -6680,7 +6576,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 231.14 104.4448 0)
+			(at 223.52 104.4448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +6776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Custom_Parts:Molex_KK-254_1x02_P2.54mm_Vertical"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -6998,7 +6894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82e95c7a-920c-4bdb-b49a-cffdca42e93d")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 109.22 124.968 90)
 			(effects
 				(font
@@ -7050,7 +6946,7 @@
 		(instances
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7546,7 +7442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7852bb-8d77-4e63-9801-a1f2625fe0fb")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG09"
 			(at 104.775 165.1 0)
 			(effects
 				(font
@@ -7597,7 +7493,7 @@
 		(instances
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG08")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -8643,7 +8539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad58db5e-efd1-47a4-9af8-4fd912222860")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 104.14 115.824 90)
 			(effects
 				(font
@@ -8695,7 +8591,7 @@
 		(instances
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9396,6 +9292,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 30.48 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9dbce31-bee0-49c8-9171-74db09e2be5b")
+		(property "Reference" "J1"
+			(at 30.48 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 30.48 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Parts:Molex_KK-254_1x03_P2.54mm_Vertical"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "184b7b6d-f4fe-4a71-86ac-c8b8b2b23e2e")
+		)
+		(pin "2"
+			(uuid "28a73e93-b2ad-48de-bfc8-6aa96526a4d6")
+		)
+		(pin "3"
+			(uuid "84cc4f60-550a-4b9d-9289-43627efce97c")
+		)
+		(instances
+			(project ""
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 185.42 53.34 0)
 		(unit 1)
@@ -9475,7 +9442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac301cb-f38b-4c85-9879-22842294cd9e")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG08"
 			(at 104.775 157.48 0)
 			(effects
 				(font
@@ -9526,7 +9493,7 @@
 		(instances
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG010")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)

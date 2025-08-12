@@ -5130,7 +5130,7 @@
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D3"
-			(at 5 0 0)
+			(at 4.5 0 0)
 			(layer "F.SilkS")
 			(uuid "9b7e8c8d-de70-44e4-82ca-088c18b68de1")
 			(effects

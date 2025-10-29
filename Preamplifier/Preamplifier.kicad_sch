@@ -1595,16 +1595,16 @@
 		(uuid "e34f916b-07ef-476b-bf6c-f1ea779d1851")
 	)
 	(junction
-		(at 54.61 165.1)
+		(at 87.63 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "076eccf0-1580-4159-9345-c110feed704d")
+		(uuid "0adb8a6a-0c70-455e-85a7-d20291223107")
 	)
 	(junction
-		(at 54.61 157.48)
+		(at 54.61 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f46581d-b497-4af3-8fce-375171d9bb22")
+		(uuid "13718b30-c579-442f-9272-89850d8c0d46")
 	)
 	(junction
 		(at 140.97 105.41)
@@ -1613,46 +1613,16 @@
 		(uuid "13ac8242-b907-4b2d-9244-64024e67911d")
 	)
 	(junction
-		(at 54.61 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b14dff5-6bfd-4e7a-8442-b0e25a3446dc")
-	)
-	(junction
-		(at 87.63 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21d4cdf6-7519-4c97-bd12-31f45b2fd167")
-	)
-	(junction
-		(at 46.99 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b24f7bb-63f8-44a5-8384-7379dba734ce")
-	)
-	(junction
 		(at 233.68 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e6f12a9-f550-442d-8c9e-7cb1272e5a4b")
 	)
 	(junction
-		(at 87.63 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3290446b-f3a4-4b90-9ed3-4b392f8a4b6c")
-	)
-	(junction
-		(at 38.1 175.26)
+		(at 38.1 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39ccd4e4-78da-41ba-a40f-57003faa20d9")
-	)
-	(junction
-		(at 102.87 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "416ede58-cf3b-4ae7-886d-88b6d972af42")
 	)
 	(junction
 		(at 115.57 105.41)
@@ -1667,22 +1637,34 @@
 		(uuid "4710dd60-87e9-486e-b42c-00c60be37bba")
 	)
 	(junction
-		(at 72.39 180.34)
+		(at 87.63 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "506109e6-6e8f-4178-9596-2aa53980b658")
-	)
-	(junction
-		(at 72.39 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58851e9b-e9e9-4e88-950b-bff6f6ffe6c6")
+		(uuid "59bc844c-078a-4463-8158-25dc1091c627")
 	)
 	(junction
 		(at 72.39 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a032ac3-c1bd-4b51-8bc4-98a6359ea53d")
+	)
+	(junction
+		(at 71.12 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "606f368a-e322-42ad-af66-25420f3ad82d")
+	)
+	(junction
+		(at 46.99 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "697c821d-15bf-4603-8ba8-3e26525d7ddc")
+	)
+	(junction
+		(at 54.61 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72e101bb-2e10-4be5-9df5-11953372eef5")
 	)
 	(junction
 		(at 140.97 26.67)
@@ -1701,12 +1683,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a62e973-6c4c-472a-a2bf-3b846fc3f88e")
-	)
-	(junction
-		(at 102.87 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7efd505a-21ba-406e-a125-e83a80c73236")
 	)
 	(junction
 		(at 220.98 105.41)
@@ -1731,12 +1707,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89cd8080-55a1-415b-9045-e8ced2fe0df1")
-	)
-	(junction
-		(at 102.87 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e071d45-287a-41f1-911b-7f56b90f1b03")
 	)
 	(junction
 		(at 115.57 39.37)
@@ -1769,28 +1739,10 @@
 		(uuid "a2f89068-c096-4635-92a9-627df5b0ae90")
 	)
 	(junction
-		(at 72.39 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a37d640f-0cb9-473a-9b8e-322c26b00231")
-	)
-	(junction
-		(at 54.61 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a59d4a88-5bbc-4f85-874a-6d2cb257b4ca")
-	)
-	(junction
 		(at 72.39 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9c52a37-cebe-4684-945a-26f3b48607ae")
-	)
-	(junction
-		(at 87.63 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4c7c811-e289-4286-91cd-1cce6663ba34")
 	)
 	(junction
 		(at 161.29 36.83)
@@ -1805,22 +1757,28 @@
 		(uuid "bceb94b6-7dea-4654-b72b-74162c6748be")
 	)
 	(junction
-		(at 87.63 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdadc0e5-9d3d-4e6d-9bbd-c4af058e671d")
-	)
-	(junction
 		(at 173.99 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4055046-54d5-4154-b696-cf60e3809a01")
 	)
 	(junction
-		(at 38.1 170.18)
+		(at 71.12 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb466048-bf9b-4406-a98b-98a841d2c695")
+	)
+	(junction
+		(at 38.1 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb4a3786-c06a-458c-bc71-f93b1eb5a187")
+	)
+	(junction
+		(at 104.14 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cccef8a7-c13e-4d0c-a403-c74da76ae29f")
 	)
 	(junction
 		(at 161.29 102.87)
@@ -1839,6 +1797,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9048a4f-7f3f-4e4d-9f34-4ae81d623317")
+	)
+	(junction
+		(at 104.14 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d91eddba-a7a1-4065-8555-ab14e08a6103")
 	)
 	(junction
 		(at 92.71 46.99)
@@ -1865,18 +1829,6 @@
 		(uuid "e45c22a5-76b5-44fe-bb8b-9e5b5a820597")
 	)
 	(junction
-		(at 102.87 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8597741-6ba2-46b8-9ba8-9ff1c70c1538")
-	)
-	(junction
-		(at 72.39 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3bf7361-d0fd-453b-8c1d-4b1ff216231f")
-	)
-	(junction
 		(at 115.57 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1890,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 40.64 170.18)
+			(xy 38.1 168.91) (xy 40.64 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 175.26) (xy 35.56 175.26)
+			(xy 38.1 173.99) (xy 35.56 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 175.26) (xy 38.1 175.26)
+			(xy 40.64 173.99) (xy 38.1 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2160,16 +2112,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 187.96) (xy 87.63 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce1d85c-342c-4c6b-950f-afce5e3f9d77")
-	)
-	(wire
-		(pts
 			(xy 114.3 72.39) (xy 111.76 72.39)
 		)
 		(stroke
@@ -2180,6 +2122,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 179.07) (xy 71.12 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2b6c6a-b600-4f35-b849-d46eb4744b94")
+	)
+	(wire
+		(pts
 			(xy 203.2 105.41) (xy 207.01 105.41)
 		)
 		(stroke
@@ -2187,6 +2139,16 @@
 			(type default)
 		)
 		(uuid "2e44975c-92d1-4af4-9ade-4849e0fb255c")
+	)
+	(wire
+		(pts
+			(xy 82.55 154.94) (xy 82.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eec79c3-de9f-4fa4-b36c-bca833628aaa")
 	)
 	(wire
 		(pts
@@ -2217,6 +2179,16 @@
 			(type default)
 		)
 		(uuid "310b0016-58e9-460b-bbf6-d326fa263c35")
+	)
+	(wire
+		(pts
+			(xy 66.04 154.94) (xy 66.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325887c2-fdcf-4335-ab98-f63be10a50d1")
 	)
 	(wire
 		(pts
@@ -2270,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 179.07) (xy 54.61 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39afdb07-7dc3-4377-8517-5f87803e8ccd")
+	)
+	(wire
+		(pts
 			(xy 115.57 46.99) (xy 115.57 39.37)
 		)
 		(stroke
@@ -2310,16 +2292,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 157.48) (xy 40.64 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e79e1b4-a18c-4d9f-bead-b4dbfa1881e7")
-	)
-	(wire
-		(pts
 			(xy 220.98 123.19) (xy 220.98 135.89)
 		)
 		(stroke
@@ -2347,6 +2319,16 @@
 			(type default)
 		)
 		(uuid "40fb2b22-e1e8-487a-a5ad-116a1e90395c")
+	)
+	(wire
+		(pts
+			(xy 104.14 154.94) (xy 99.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41608f29-f267-4ff5-80b0-f9eae8f56671")
 	)
 	(wire
 		(pts
@@ -2390,26 +2372,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 170.18) (xy 46.99 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45cced91-c468-459a-a03a-064256a6122c")
-	)
-	(wire
-		(pts
-			(xy 54.61 157.48) (xy 72.39 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481c7982-a61b-4d1b-90f7-7fb50b418a4f")
-	)
-	(wire
-		(pts
 			(xy 218.44 39.37) (xy 220.98 39.37)
 		)
 		(stroke
@@ -2420,16 +2382,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 172.72) (xy 46.99 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e4cc6d-cfcb-4cd2-898b-9358ca954362")
-	)
-	(wire
-		(pts
 			(xy 173.99 57.15) (xy 173.99 69.85)
 		)
 		(stroke
@@ -2437,6 +2389,16 @@
 			(type default)
 		)
 		(uuid "49d2c294-9a56-42d6-a9e9-408a8d9bb89f")
+	)
+	(wire
+		(pts
+			(xy 71.12 154.94) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a332d7d-2a32-42cc-a39d-b464825a6714")
 	)
 	(wire
 		(pts
@@ -2500,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 170.18) (xy 38.1 170.18)
+			(xy 35.56 168.91) (xy 38.1 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2540,16 +2502,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 187.96) (xy 40.64 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598c3e07-a8e7-4360-8424-74a4d1107dba")
-	)
-	(wire
-		(pts
 			(xy 128.27 29.21) (xy 128.27 26.67)
 		)
 		(stroke
@@ -2580,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 165.1) (xy 38.1 170.18)
+			(xy 38.1 163.83) (xy 38.1 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2650,16 +2602,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 157.48) (xy 40.64 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de06c9d-a5e3-442e-8b8a-cad3c87d4e20")
-	)
-	(wire
-		(pts
 			(xy 233.68 49.53) (xy 233.68 39.37)
 		)
 		(stroke
@@ -2710,16 +2652,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 157.48) (xy 102.87 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72cd02a4-bdb0-4b74-9e5c-b6a28bea7e03")
-	)
-	(wire
-		(pts
 			(xy 72.39 36.83) (xy 74.93 36.83)
 		)
 		(stroke
@@ -2727,6 +2659,16 @@
 			(type default)
 		)
 		(uuid "735e6689-7feb-428e-8eff-3bd4d58e482f")
+	)
+	(wire
+		(pts
+			(xy 99.06 154.94) (xy 99.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7457ae03-ead0-43f6-b332-7c779ffea551")
 	)
 	(wire
 		(pts
@@ -2770,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 156.21) (xy 54.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da1ffa0-e57d-49d5-96df-df870f16d1d1")
+	)
+	(wire
+		(pts
 			(xy 115.57 113.03) (xy 115.57 121.92)
 		)
 		(stroke
@@ -2790,16 +2742,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 187.96) (xy 102.87 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82fb1a42-e612-4ffd-90ac-916056ab4067")
-	)
-	(wire
-		(pts
 			(xy 43.18 105.41) (xy 46.99 105.41)
 		)
 		(stroke
@@ -2807,6 +2749,16 @@
 			(type default)
 		)
 		(uuid "83ac1f44-f945-4440-8cc1-daea6c253dc4")
+	)
+	(wire
+		(pts
+			(xy 71.12 156.21) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c2157e-121b-46a4-b00b-5855418f2dca")
 	)
 	(wire
 		(pts
@@ -2910,6 +2862,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 156.21) (xy 104.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959486d6-43f8-49f6-a1c8-2eb9313edc00")
+	)
+	(wire
+		(pts
 			(xy 171.45 36.83) (xy 173.99 36.83)
 		)
 		(stroke
@@ -2940,6 +2902,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 179.07) (xy 87.63 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986bd585-e571-4275-94bf-5c43491f624e")
+	)
+	(wire
+		(pts
+			(xy 40.64 168.91) (xy 40.64 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a06bdff-225a-408f-aeb0-4f1856e637c6")
+	)
+	(wire
+		(pts
 			(xy 115.57 113.03) (xy 115.57 105.41)
 		)
 		(stroke
@@ -2957,16 +2939,6 @@
 			(type default)
 		)
 		(uuid "9dcedc57-dc87-4203-a319-9668294671ca")
-	)
-	(wire
-		(pts
-			(xy 72.39 157.48) (xy 87.63 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26f2859-3d7a-4025-afb2-f3bfb51724f9")
 	)
 	(wire
 		(pts
@@ -3040,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 173.99) (xy 40.64 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16ad324-5cc2-4de1-b101-4e47f3c04faf")
+	)
+	(wire
+		(pts
 			(xy 185.42 46.99) (xy 185.42 41.91)
 		)
 		(stroke
@@ -3077,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "b985c0a2-3c41-46a7-8365-8b4b555150f7")
+	)
+	(wire
+		(pts
+			(xy 87.63 179.07) (xy 104.14 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0b94c1-9870-494c-bcd4-2835a64db402")
 	)
 	(wire
 		(pts
@@ -3130,6 +3122,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 163.83) (xy 104.14 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4eb920-2dee-41bb-a722-5e7adc1f1acf")
+	)
+	(wire
+		(pts
+			(xy 49.53 154.94) (xy 49.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf719c6a-4703-4657-85f7-d1268900996a")
+	)
+	(wire
+		(pts
 			(xy 82.55 67.31) (xy 82.55 69.85)
 		)
 		(stroke
@@ -3140,13 +3152,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 187.96) (xy 72.39 187.96)
+			(xy 54.61 154.94) (xy 49.53 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c73180de-792a-4544-9d48-8ce82d304b9b")
+		(uuid "c28bdf53-ae39-4f98-b631-d67d386973d6")
 	)
 	(wire
 		(pts
@@ -3240,6 +3252,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 171.45) (xy 46.99 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d052c590-6815-4ec4-b831-3c76fa26bf56")
+	)
+	(wire
+		(pts
 			(xy 161.29 36.83) (xy 158.75 36.83)
 		)
 		(stroke
@@ -3280,6 +3302,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 163.83) (xy 71.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db66f64d-9292-4538-b3bb-f73c27558fe2")
+	)
+	(wire
+		(pts
 			(xy 113.03 55.88) (xy 115.57 55.88)
 		)
 		(stroke
@@ -3290,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 180.34) (xy 38.1 175.26)
+			(xy 38.1 179.07) (xy 38.1 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3307,6 +3339,16 @@
 			(type default)
 		)
 		(uuid "dd935e28-7f8e-4e86-80c6-3bcc054ca1d3")
+	)
+	(wire
+		(pts
+			(xy 87.63 154.94) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddaaa343-010e-4f28-a52e-2abc02a2763b")
 	)
 	(wire
 		(pts
@@ -3360,16 +3402,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 187.96) (xy 40.64 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6304190-7022-40d9-a271-f847fc102824")
-	)
-	(wire
-		(pts
 			(xy 207.01 105.41) (xy 210.82 105.41)
 		)
 		(stroke
@@ -3380,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 163.83) (xy 54.61 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a0baa3-c5ae-4ec3-93bb-85f70b0683c7")
+	)
+	(wire
+		(pts
 			(xy 161.29 26.67) (xy 161.29 36.83)
 		)
 		(stroke
@@ -3387,6 +3429,16 @@
 			(type default)
 		)
 		(uuid "ec89e81d-e2e0-4097-ad90-25fecf32f288")
+	)
+	(wire
+		(pts
+			(xy 71.12 163.83) (xy 87.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed88e5b0-9302-4167-81b1-12da54b9dbaa")
 	)
 	(wire
 		(pts
@@ -3407,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "f01bec92-7cd7-47b3-a8b3-bbbe12944063")
+	)
+	(wire
+		(pts
+			(xy 87.63 156.21) (xy 87.63 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08c0c5a-6994-4a83-970b-fb39c7f15798")
 	)
 	(wire
 		(pts
@@ -3510,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 172.72) (xy 46.99 172.72)
+			(xy 35.56 171.45) (xy 46.99 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3649,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 184.15 0)
+		(at 54.61 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3596,7 +3658,7 @@
 		(fields_autoplaced yes)
 		(uuid "00bead27-0598-482c-976b-90fd8d6284ad")
 		(property "Reference" "C2"
-			(at 58.42 182.8799 0)
+			(at 58.42 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3667,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 58.42 185.4199 0)
+			(at 58.42 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3676,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 55.5752 187.96 0)
+			(at 55.5752 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 184.15 0)
+			(at 54.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3694,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 184.15 0)
+			(at 54.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3719,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 74.93 172.72 0)
+		(at 73.66 171.45 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3666,7 +3728,7 @@
 		(fields_autoplaced yes)
 		(uuid "01526c95-87cf-4623-9b12-3d596c4c1ab5")
 		(property "Reference" "U2"
-			(at 73.66 171.4499 0)
+			(at 72.39 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3737,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 73.66 173.9899 0)
+			(at 72.39 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3746,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 74.93 172.72 0)
+			(at 73.66 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3755,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 74.93 172.72 0)
+			(at 73.66 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3764,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 74.93 172.72 0)
+			(at 73.66 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,6 +3867,72 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05498d41-4c6b-4fc0-9b13-52cf3f379194")
+		(property "Reference" "#PWR027"
+			(at 87.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b170d852-9dd1-4a00-bb92-9360749bef7e")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4373,6 +4501,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 99.06 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b55d80-de14-4bec-ad78-4b595c1147c7")
+		(property "Reference" "#PWR032"
+			(at 99.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5afa0abd-d6bb-437b-b8eb-fba0dcd0eb99")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 220.98 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4639,7 +4833,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 161.29 0)
+		(at 71.12 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4648,7 +4842,7 @@
 		(fields_autoplaced yes)
 		(uuid "35587d57-394b-46a1-9d68-5910feb8e706")
 		(property "Reference" "C5"
-			(at 76.2 160.0199 0)
+			(at 74.93 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4851,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 76.2 162.5599 0)
+			(at 74.93 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4860,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 73.3552 165.1 0)
+			(at 72.0852 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 161.29 0)
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4878,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 161.29 0)
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,75 +4902,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 102.87 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38c4dfde-75dc-4fd0-ac69-d4bf31cd012e")
-		(property "Reference" "#FLG010"
-			(at 104.775 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 106.68 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 102.87 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2040d247-ed0c-48ba-b043-037fb731f44c")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 102.87 161.29 0)
+		(at 104.14 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4785,7 +4912,7 @@
 		(fields_autoplaced yes)
 		(uuid "39fdca05-7bf0-42e6-a932-f9ed41c69365")
 		(property "Reference" "C13"
-			(at 106.68 160.0199 0)
+			(at 107.95 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4921,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 106.68 162.5599 0)
+			(at 107.95 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4930,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 103.8352 165.1 0)
+			(at 105.1052 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 161.29 0)
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4948,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 161.29 0)
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +5110,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 38.1 165.1 0)
+		(at 38.1 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4991,7 +5118,7 @@
 		(dnp no)
 		(uuid "3e518600-2fef-407e-87b3-0f7591f55ed9")
 		(property "Reference" "#PWR01"
-			(at 38.1 168.91 0)
+			(at 38.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5127,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 36.576 160.02 0)
+			(at 36.576 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 165.1 0)
+			(at 38.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 165.1 0)
+			(at 38.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 38.1 165.1 0)
+			(at 38.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,73 +5168,6 @@
 			(project ""
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 87.63 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "442a30d6-a430-4928-aea2-a7d4681064a4")
-		(property "Reference" "#FLG07"
-			(at 89.535 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 91.44 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a009962-8be3-4de9-b4c7-544146f21685")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -5337,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 184.15 0)
+		(at 71.12 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5346,7 +5406,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ad68fcd-7739-4536-9eed-072d2fe16370")
 		(property "Reference" "C6"
-			(at 76.2 182.8799 0)
+			(at 74.93 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5415,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 76.2 185.4199 0)
+			(at 74.93 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5424,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 73.3552 187.96 0)
+			(at 72.0852 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 184.15 0)
+			(at 71.12 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5442,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 184.15 0)
+			(at 71.12 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,73 +5460,6 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 87.63 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c04a858-d01a-4105-ae32-724ad91bbd40")
-		(property "Reference" "#FLG06"
-			(at 89.535 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 91.44 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c73ee2e-8df2-4293-aebc-ee529eacb72f")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -5537,6 +5530,72 @@
 			(project ""
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5548f39e-5011-4701-9599-70c0c4021623")
+		(property "Reference" "#FLG03"
+			(at 46.99 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a690abb-bf3c-451a-ae87-c8bc314ab9f5")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5746,7 +5805,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 161.29 0)
+		(at 54.61 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5755,7 +5814,7 @@
 		(fields_autoplaced yes)
 		(uuid "5daae2a9-aa7d-4c78-b36e-39f7b13efdc6")
 		(property "Reference" "C1"
-			(at 58.42 160.0199 0)
+			(at 58.42 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +5823,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 58.42 162.5599 0)
+			(at 58.42 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +5832,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 55.5752 165.1 0)
+			(at 55.5752 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +5841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 161.29 0)
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +5850,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 161.29 0)
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5961,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 57.15 172.72 0)
+		(at 57.15 171.45 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5911,7 +5970,7 @@
 		(fields_autoplaced yes)
 		(uuid "62e2351c-a25f-4738-97c2-8dd87066634c")
 		(property "Reference" "U1"
-			(at 55.88 171.4499 0)
+			(at 55.88 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5979,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 55.88 173.9899 0)
+			(at 55.88 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5988,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 57.15 172.72 0)
+			(at 57.15 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5997,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 57.15 172.72 0)
+			(at 57.15 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +6006,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 57.15 172.72 0)
+			(at 57.15 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,6 +6043,72 @@
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6555e371-26e4-4d01-8483-cc448c783a36")
+		(property "Reference" "#PWR033"
+			(at 49.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fd18884-c7e8-4cd6-b87d-02062efe0e51")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR033")
+					(unit 1)
 				)
 			)
 		)
@@ -6059,6 +6184,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 46.99 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69672b51-8cf9-43fb-b0b8-8f5f2700467b")
+		(property "Reference" "#PWR029"
+			(at 46.99 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d12aab4-7ca4-4d96-aa4e-dc63986b7b9b")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 152.4 165.1 0)
 		(unit 1)
@@ -6124,7 +6315,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 105.41 172.72 0)
+		(at 106.68 171.45 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6133,7 +6324,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bbba328-c7c0-4995-afdc-464031380579")
 		(property "Reference" "U4"
-			(at 104.14 171.4499 0)
+			(at 105.41 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6333,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 104.14 173.9899 0)
+			(at 105.41 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6342,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 105.41 172.72 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6351,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 105.41 172.72 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6360,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 105.41 172.72 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,72 +6610,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "706fc368-bd4d-4a0d-b04e-5bc6df49bb0a")
-		(property "Reference" "#PWR05"
-			(at 46.99 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "161a4273-4fef-49aa-b5ab-c65903896ef5")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 246.38 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6544,6 +6669,72 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76fa1e6b-3310-46ca-88fc-7aaf645ac951")
+		(property "Reference" "#PWR030"
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4429e5c-9160-4e19-9aa4-bd7951d66e0c")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7366,140 +7557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 102.87 187.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "959c4674-ccd3-4e55-a480-581a4d372595")
-		(property "Reference" "#FLG011"
-			(at 104.775 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 106.68 187.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 102.87 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f08c158-b9de-44e0-b120-d6ad97c82442")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 102.87 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a7852bb-8d77-4e63-9801-a1f2625fe0fb")
-		(property "Reference" "#FLG09"
-			(at 104.775 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 106.68 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 102.87 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a525ed2-25a0-4d14-87c7-00a24db22080")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 104.14 46.99 90)
 		(unit 1)
@@ -7700,7 +7757,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 87.63 184.15 0)
+		(at 87.63 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7709,7 +7766,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0b4b5b4-3ae3-449e-956b-c76d67087384")
 		(property "Reference" "C10"
-			(at 91.44 182.8799 0)
+			(at 91.44 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +7775,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 91.44 185.4199 0)
+			(at 91.44 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,7 +7784,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 88.5952 187.96 0)
+			(at 88.5952 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,7 +7793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 184.15 0)
+			(at 87.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7802,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 87.63 184.15 0)
+			(at 87.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,142 +7826,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 54.61 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a131f7cc-b7da-4117-9378-921417c3914a")
-		(property "Reference" "#FLG02"
-			(at 56.515 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 58.42 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 54.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c14e43e8-52e1-48cb-a59b-44afe4051283")
-		)
-		(instances
-			(project ""
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 72.39 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1ffaa7d-89e1-43f9-b3ac-82d8b8be4519")
-		(property "Reference" "#FLG05"
-			(at 74.295 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 76.2 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 72.39 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ed76c21-5158-4c48-8254-2b58c66f17cd")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 102.87 184.15 0)
+		(at 104.14 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7913,7 +7836,7 @@
 		(fields_autoplaced yes)
 		(uuid "a259916b-be24-4e09-af91-27e4f4bd2343")
 		(property "Reference" "C14"
-			(at 106.68 182.8799 0)
+			(at 107.95 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +7845,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 106.68 185.4199 0)
+			(at 107.95 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +7854,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 103.8352 187.96 0)
+			(at 105.1052 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +7863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 184.15 0)
+			(at 104.14 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7872,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 184.15 0)
+			(at 104.14 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,6 +8092,72 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a64d90b0-42fa-4744-9b4a-591c6b94f1ed")
+		(property "Reference" "#PWR026"
+			(at 71.12 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1daaa875-668e-4207-9d11-36ebd69a3ebd")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8462,7 +8451,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 87.63 161.29 0)
+		(at 87.63 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8471,7 +8460,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac8a9d98-420a-44bb-a008-6db83b4872a2")
 		(property "Reference" "C9"
-			(at 91.44 160.0199 0)
+			(at 91.44 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8469,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 91.44 162.5599 0)
+			(at 91.44 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8478,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 88.5952 165.1 0)
+			(at 88.5952 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 161.29 0)
+			(at 87.63 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +8496,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 87.63 161.29 0)
+			(at 87.63 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8592,73 +8581,6 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 54.61 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2e6415c-fd17-491a-a63a-0d17836b9688")
-		(property "Reference" "#FLG03"
-			(at 56.515 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 58.42 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a10ad25-bcb7-4256-9426-c6076f7b2e38")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8872,6 +8794,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 82.55 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c017ed03-87f2-407e-b66b-c0f8fb6a20d2")
+		(property "Reference" "#PWR031"
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "907475be-dc24-4b52-81f6-efe417646291")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 82.55 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9008,7 +8996,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 38.1 180.34 180)
+		(at 38.1 179.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9016,7 +9004,7 @@
 		(dnp no)
 		(uuid "c7ad2ac6-92d9-41e1-9b6e-07bf2b3d7593")
 		(property "Reference" "#PWR02"
-			(at 38.1 176.53 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9013,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 36.576 185.42 0)
+			(at 36.576 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +9021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 180.34 0)
+			(at 38.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 180.34 0)
+			(at 38.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 38.1 180.34 0)
+			(at 38.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +9281,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 30.48 172.72 0)
+		(at 30.48 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9302,7 +9290,7 @@
 		(dnp no)
 		(uuid "c9dbce31-bee0-49c8-9171-74db09e2be5b")
 		(property "Reference" "J1"
-			(at 30.48 164.084 0)
+			(at 30.48 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9310,7 +9298,7 @@
 			)
 		)
 		(property "Value" "POWER"
-			(at 30.48 166.624 0)
+			(at 30.48 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9306,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:Molex_KK-254_1x03_P2.54mm_Vertical"
-			(at 30.48 172.72 0)
+			(at 30.48 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 172.72 0)
+			(at 30.48 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9324,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 30.48 172.72 0)
+			(at 30.48 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,73 +9421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 102.87 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cac301cb-f38b-4c85-9879-22842294cd9e")
-		(property "Reference" "#FLG08"
-			(at 104.775 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 106.68 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71e4a87b-e19f-4346-87f6-eaccccf4d296")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 173.99 69.85 0)
 		(unit 1)
@@ -9565,8 +9486,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf6252d0-ecd4-499a-bcb6-0c46f8d5ca3b")
+		(property "Reference" "#PWR028"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91678981-6630-49a5-8cdb-0848c1d644a5")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 90.17 172.72 0)
+		(at 90.17 171.45 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9575,7 +9562,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0b9c019-485a-4a8b-83d9-3f37415f3dd1")
 		(property "Reference" "U3"
-			(at 88.9 171.4499 0)
+			(at 88.9 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9571,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 88.9 173.9899 0)
+			(at 88.9 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9580,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 90.17 172.72 0)
+			(at 90.17 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9589,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 90.17 172.72 0)
+			(at 90.17 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9598,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 90.17 172.72 0)
+			(at 90.17 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,72 +9635,6 @@
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "U3")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 46.99 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3a82337-7cea-47ee-b1ea-ad5ff5b19195")
-		(property "Reference" "#FLG01"
-			(at 46.99 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 46.99 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 46.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2e6cafa-005d-4ffd-9924-1c01a9f5fab5")
-		)
-		(instances
-			(project ""
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG01")
-					(unit 1)
 				)
 			)
 		)
@@ -9915,6 +9836,72 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d855d812-1280-4ede-85c0-faf7f907b83b")
+		(property "Reference" "#PWR05"
+			(at 54.61 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c667399-3588-4953-a422-a57a80bae2b2")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10292,73 +10279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 72.39 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e11ac810-2565-4b45-8439-1a8680b4db51")
-		(property "Reference" "#FLG04"
-			(at 74.295 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 76.2 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 72.39 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c4981b0-ba6f-4399-879b-0695f25d50ad")
-		)
-		(instances
-			(project "Preamplifier"
-				(path "/506a4015-8700-461c-aa21-0f1930354b08"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 173.99 135.89 0)
 		(unit 1)
@@ -10624,6 +10544,73 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb0c9162-14f3-424b-99b7-5afe22979bce")
+		(property "Reference" "#FLG02"
+			(at 106.045 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c2172bb-bbe2-49d2-9332-1ec9f8bc557a")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10915,6 +10902,73 @@
 			(project "Preamplifier"
 				(path "/506a4015-8700-461c-aa21-0f1930354b08"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa0acd0f-489f-4a0a-b7d1-27bce412423b")
+		(property "Reference" "#FLG01"
+			(at 106.045 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32940f0f-2aec-4f46-ae22-54d8e32ae069")
+		)
+		(instances
+			(project "Preamplifier"
+				(path "/506a4015-8700-461c-aa21-0f1930354b08"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

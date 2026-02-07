@@ -8,7 +8,7 @@
 		(title "PHONO PREAMP")
 		(date "2025-08-08")
 		(rev "1.0")
-		(company "Chapuzas S.L.")
+		(company "DavidMolTor")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA1612AxD"
